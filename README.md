@@ -8,7 +8,7 @@ WUFuC allows you to continue installing updates on Windows 7 and 8.1 systems wit
 - Byte pattern-based patching, which means it will usually keep working even after new updates come out.
 
 ## Download & How to use
-- open setup.exe & follow the instructions.
+- open setup.msi & follow the instructions.
 - After the installation is complete, open "WUFuC Control Panel" and click on "Enable WUFuC".
 
 Current WUFuC version: v0.7.1.81
