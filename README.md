@@ -15,7 +15,7 @@ Current WUFuC version: v0.7.1.81
 
 Current WUFuC Control Panel version: v1.1
 
-[Download v1.1](www.google.com)
+[Download v1.1](https://github.com/git-coldsoft/WUFuC-Control-Panel/releases/download/WUFuC/setup.msi)
 
 ## Credits
 - wufuc was created by zeffy/chipsi007 (https://github.com/chipsi007/wufuc)
