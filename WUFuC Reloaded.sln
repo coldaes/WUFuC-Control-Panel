@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WUFuC Reloaded", "WUFuC Reloaded\WUFuC Reloaded.csproj", "{C98B4BA6-1CDC-4C59-9E49-BFC8CA870A38}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C98B4BA6-1CDC-4C59-9E49-BFC8CA870A38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C98B4BA6-1CDC-4C59-9E49-BFC8CA870A38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C98B4BA6-1CDC-4C59-9E49-BFC8CA870A38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C98B4BA6-1CDC-4C59-9E49-BFC8CA870A38}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {055C83E8-781C-4787-9A51-6F53EF497202}
+	EndGlobalSection
+EndGlobal
