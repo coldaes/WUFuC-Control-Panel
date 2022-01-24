@@ -13,11 +13,11 @@ using System.Reflection;
 
 namespace WUFuC_Reloaded
 {
-    public partial class Form1 : Form
+    public partial class interfacewindow : Form
     {
         private const bool V = true;
 
-        public Form1()
+        public interfacewindow()
         {
             InitializeComponent();
         }
@@ -114,7 +114,7 @@ namespace WUFuC_Reloaded
 
         private void linkLabel2_LinkClicked_1(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            _ = Process.Start("https://github.com/git-coldsoft/WUFuC-Control-Panel");
+            _ = Process.Start("https://github.com/coldaes/WUFuC-Control-Panel");
         }
     }
 }
