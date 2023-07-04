@@ -20,4 +20,6 @@ Current WUFuC Control Panel version: v1.2
 ## Credits
 - wufuc was created by zeffy/chipsi007 (https://github.com/chipsi007/wufuc)
 
-- control panel was created by me (coldaes)
+- control panel was created by me
+
+note from 04.07.2023: might rework this whole thing soon
