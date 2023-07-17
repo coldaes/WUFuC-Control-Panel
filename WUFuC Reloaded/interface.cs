@@ -58,7 +58,7 @@ namespace WUFuC_Reloaded
             else
             {
                 progressBar1.Value = 100;
-                _ = MessageBox.Show("Error: script file could not be found! Try re-installing the software.",
+                _ = MessageBox.Show("Error: script file could not be found! Please re-download me uwu",
                                 "Error 02",
                                 buttons: MessageBoxButtons.OK,
                                 MessageBoxIcon.Error);

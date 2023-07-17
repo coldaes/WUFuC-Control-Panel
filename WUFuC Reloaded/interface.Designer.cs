@@ -28,9 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(interfacewindow));
-            this.taskbarinfo = new System.Windows.Forms.NotifyIcon(this.components);
             this.enblbutton = new System.Windows.Forms.Button();
             this.toptext = new System.Windows.Forms.Label();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
@@ -45,13 +43,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.aboutbox)).BeginInit();
             this.SuspendLayout();
             // 
-            // taskbarinfo
-            // 
-            this.taskbarinfo.BalloonTipIcon = System.Windows.Forms.ToolTipIcon.Info;
-            this.taskbarinfo.Icon = ((System.Drawing.Icon)(resources.GetObject("taskbarinfo.Icon")));
-            this.taskbarinfo.Text = "WUFuC service is running";
-            this.taskbarinfo.Visible = true;
-            // 
             // enblbutton
             // 
             this.enblbutton.Image = ((System.Drawing.Image)(resources.GetObject("enblbutton.Image")));
@@ -60,7 +51,7 @@
             this.enblbutton.Name = "enblbutton";
             this.enblbutton.Size = new System.Drawing.Size(115, 23);
             this.enblbutton.TabIndex = 0;
-            this.enblbutton.Text = "Enable WUFuC";
+            this.enblbutton.Text = "Enable WUFUC";
             this.enblbutton.UseVisualStyleBackColor = true;
             this.enblbutton.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -69,9 +60,9 @@
             this.toptext.AutoSize = true;
             this.toptext.Location = new System.Drawing.Point(141, 21);
             this.toptext.Name = "toptext";
-            this.toptext.Size = new System.Drawing.Size(192, 13);
+            this.toptext.Size = new System.Drawing.Size(178, 13);
             this.toptext.TabIndex = 1;
-            this.toptext.Text = "Welcome to the WUFuC Control Panel!";
+            this.toptext.Text = "welcome to the wufuc control panel!";
             this.toptext.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.toptext.Click += new System.EventHandler(this.label1_Click);
             // 
@@ -90,7 +81,7 @@
             this.disblbutton.Name = "disblbutton";
             this.disblbutton.Size = new System.Drawing.Size(115, 23);
             this.disblbutton.TabIndex = 4;
-            this.disblbutton.Text = "Disable WUFuC";
+            this.disblbutton.Text = "Disable WUFUC";
             this.disblbutton.UseVisualStyleBackColor = true;
             this.disblbutton.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -101,9 +92,9 @@
             this.maintext.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.maintext.Location = new System.Drawing.Point(141, 51);
             this.maintext.Name = "maintext";
-            this.maintext.Size = new System.Drawing.Size(237, 39);
+            this.maintext.Size = new System.Drawing.Size(228, 39);
             this.maintext.TabIndex = 5;
-            this.maintext.Text = "WUFuC allows you to continue installing updates\r\non Windows 7, 8 and 8.1 systems " +
+            this.maintext.Text = "wufuc allows you to continue installing updates\r\non windows 7, 8 and 8.1 systems " +
     "with\r\nunsupported processors.";
             this.maintext.Click += new System.EventHandler(this.label2_Click);
             // 
@@ -125,9 +116,9 @@
             this.abouttext1.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
             this.abouttext1.Location = new System.Drawing.Point(76, 39);
             this.abouttext1.Name = "abouttext1";
-            this.abouttext1.Size = new System.Drawing.Size(50, 13);
+            this.abouttext1.Size = new System.Drawing.Size(41, 13);
             this.abouttext1.TabIndex = 7;
-            this.abouttext1.Text = "WUFuC";
+            this.abouttext1.Text = "wufuc";
             this.abouttext1.Click += new System.EventHandler(this.label3_Click);
             // 
             // aboutver2
@@ -135,9 +126,9 @@
             this.aboutver2.AutoSize = true;
             this.aboutver2.Location = new System.Drawing.Point(12, 99);
             this.aboutver2.Name = "aboutver2";
-            this.aboutver2.Size = new System.Drawing.Size(111, 26);
+            this.aboutver2.Size = new System.Drawing.Size(68, 26);
             this.aboutver2.TabIndex = 8;
-            this.aboutver2.Text = "WUFuC Control Panel\r\nv1.2";
+            this.aboutver2.Text = "control panel\r\nv2.0 beta";
             this.aboutver2.Click += new System.EventHandler(this.label4_Click);
             // 
             // aboutver1
@@ -145,9 +136,9 @@
             this.aboutver1.AutoSize = true;
             this.aboutver1.Location = new System.Drawing.Point(12, 77);
             this.aboutver1.Name = "aboutver1";
-            this.aboutver1.Size = new System.Drawing.Size(93, 13);
+            this.aboutver1.Size = new System.Drawing.Size(84, 13);
             this.aboutver1.TabIndex = 9;
-            this.aboutver1.Text = "WUFuC v0.7.1.81";
+            this.aboutver1.Text = "wufuc v0.7.1.81";
             // 
             // aboutlicense
             // 
@@ -202,8 +193,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.NotifyIcon taskbarinfo;
         private System.Windows.Forms.Button enblbutton;
         private System.Windows.Forms.Label toptext;
         private System.Windows.Forms.ProgressBar progressBar1;
